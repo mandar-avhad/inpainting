@@ -27,11 +27,15 @@ this_repo_url: copy paste the repo of this url
 ## Installation
 
 Use the package manager [pip](https://pip.pypa.io/en/stable/) to install the requirements.
-
+Note: If you dod pip install, you will have to download the models, weights manually and place it in the respective folders.
 ```bash
 !pip install -r merged_requirements.txt
 ```
-This will install all the dependencies (merged_requirements because it installs multiple requirements needed by our pipeline
+or (recommended way)
+```bash
+./setup.sh
+```
+This will install all the dependencies and download the models, weights needed by our pipeline
 
 ## Usage
 
